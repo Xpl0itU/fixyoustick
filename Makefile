@@ -32,7 +32,7 @@ include $(DEVKITPRO)/wut/share/wut_rules
 #-------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	.
+SOURCES		:=	. include
 DATA		:=	data
 INCLUDES	:=	include
 CONTENT		:=
